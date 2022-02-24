@@ -1,0 +1,96 @@
+2022-02-24T15:31:57,820+0100 [59553 1] com.newrelic INFO: Writing to New Relic log file: /Users/nhormazabal/Development/Personal/spring-sample/logs/newrelic_agent.log
+2022-02-24T15:31:57,821+0100 [59553 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11.0.2
+2022-02-24T15:31:57,821+0100 [59553 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11.0.2+9
+2022-02-24T15:31:57,821+0100 [59553 1] com.newrelic INFO: OS Mac OS X version 10.16 arch x86_64
+2022-02-24T15:31:57,821+0100 [59553 1] com.newrelic INFO: Agent Host: C02Z55V1LVDQ IP: 192.168.1.181
+2022-02-24T15:31:57,821+0100 [59553 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT is initializing...
+2022-02-24T15:31:58,488+0100 [59553 23] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-02-24T15:31:59,760+0100 [59553 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at staging-collector.newrelic.com:443
+2022-02-24T15:31:59,991+0100 [59553 1] com.newrelic INFO: Setting audit_mode to false
+2022-02-24T15:32:00,151+0100 [59553 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/nhormazabal/Development/Personal/spring-sample/./newrelic.yml
+2022-02-24T15:32:00,159+0100 [59553 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT has started
+2022-02-24T15:32:00,159+0100 [59553 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@3701eaf6
+2022-02-24T15:32:00,159+0100 [59553 1] com.newrelic INFO: Premain startup complete in 3,111ms
+2022-02-24T15:32:02,525+0100 [59553 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.56
+2022-02-24T15:32:05,163+0100 [59553 41] com.newrelic INFO: Host name is C02Z55V1LVDQ, display host C02Z55V1LVDQ for application Nico Test App
+2022-02-24T15:32:05,165+0100 [59553 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T15:32:06,720+0100 [59553 41] com.newrelic INFO: Collector redirection to collector-1.staging-collectors.newrelic.com:443
+2022-02-24T15:32:08,112+0100 [59553 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-02-24T15:32:08,112+0100 [59553 41] com.newrelic INFO: Agent run id: BThsDRLAxyF_AK_46gHJkzNiF5dYAAIBIQArJQEAAOihifbhjAIEAcmPTAMADjcuNi4wLVNOQVBTSE9UAAxDMDJaNTVWMUxWRFEADU5pY28gVGVzdCBBcHA
+2022-02-24T15:32:08,112+0100 [59553 41] com.newrelic INFO: Agent 59553@C02Z55V1LVDQ/Nico Test App connected to staging-collector.newrelic.com:443
+2022-02-24T15:32:08,113+0100 [59553 41] com.newrelic INFO: Reporting to: https://staging.newrelic.com/accounts/11532522/applications/29986636
+2022-02-24T15:32:08,114+0100 [59553 41] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T15:32:08,114+0100 [59553 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T15:32:08,115+0100 [59553 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T15:32:08,117+0100 [59553 41] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T15:32:08,117+0100 [59553 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T15:32:08,117+0100 [59553 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T15:32:08,948+0100 [59553 41] com.newrelic INFO: Real user monitoring is enabled for application Nico Test App. Auto instrumentation is enabled.
+2022-02-24T15:32:08,950+0100 [59553 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T16:00:18,869+0100 [59553 16] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-02-24T16:00:18,889+0100 [59553 45] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5518451a tried to finish but ServiceManager not started
+2022-02-24T16:00:19,414+0100 [59553 16] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2022-02-24T16:01:42,788+0100 [62330 1] com.newrelic INFO: Writing to New Relic log file: /Users/nhormazabal/Development/Personal/spring-sample/logs/newrelic_agent.log
+2022-02-24T16:01:42,788+0100 [62330 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11.0.2
+2022-02-24T16:01:42,788+0100 [62330 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11.0.2+9
+2022-02-24T16:01:42,788+0100 [62330 1] com.newrelic INFO: OS Mac OS X version 10.16 arch x86_64
+2022-02-24T16:01:42,788+0100 [62330 1] com.newrelic INFO: Agent Host: C02Z55V1LVDQ IP: 192.168.1.181
+2022-02-24T16:01:42,789+0100 [62330 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT is initializing...
+2022-02-24T16:01:43,457+0100 [62330 23] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-02-24T16:01:44,701+0100 [62330 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at staging-collector.newrelic.com:443
+2022-02-24T16:01:44,941+0100 [62330 1] com.newrelic INFO: Setting audit_mode to false
+2022-02-24T16:01:45,097+0100 [62330 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/nhormazabal/Development/Personal/spring-sample/./newrelic.yml
+2022-02-24T16:01:45,105+0100 [62330 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT has started
+2022-02-24T16:01:45,105+0100 [62330 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@3701eaf6
+2022-02-24T16:01:45,106+0100 [62330 1] com.newrelic INFO: Premain startup complete in 3,091ms
+2022-02-24T16:01:47,761+0100 [62330 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.56
+2022-02-24T16:01:50,111+0100 [62330 41] com.newrelic INFO: Host name is C02Z55V1LVDQ, display host C02Z55V1LVDQ for application Nico Test App
+2022-02-24T16:01:50,112+0100 [62330 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T16:01:54,455+0100 [62330 41] com.newrelic INFO: Collector redirection to collector-1.staging-collectors.newrelic.com:443
+2022-02-24T16:01:56,029+0100 [62330 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-02-24T16:01:56,029+0100 [62330 41] com.newrelic INFO: Agent run id: BUknkdv0HFwAAK_46gHJkzNiF54kAAIBIQArJQEAAPN6ifbhjAIEAcmPTAMADjcuNi4wLVNOQVBTSE9UAAxDMDJaNTVWMUxWRFEADU5pY28gVGVzdCBBcHA
+2022-02-24T16:01:56,032+0100 [62330 41] com.newrelic INFO: Agent 62330@C02Z55V1LVDQ/Nico Test App connected to staging-collector.newrelic.com:443
+2022-02-24T16:01:56,032+0100 [62330 41] com.newrelic INFO: Reporting to: https://staging.newrelic.com/accounts/11532522/applications/29986636
+2022-02-24T16:01:56,034+0100 [62330 41] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T16:01:56,034+0100 [62330 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T16:01:56,034+0100 [62330 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T16:01:56,037+0100 [62330 41] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T16:01:56,037+0100 [62330 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T16:01:56,037+0100 [62330 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T16:01:57,184+0100 [62330 41] com.newrelic INFO: Real user monitoring is enabled for application Nico Test App. Auto instrumentation is enabled.
+2022-02-24T16:01:57,185+0100 [62330 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T17:16:51,845+0100 [62330 16] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-02-24T17:16:51,878+0100 [62330 45] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@14db8c13 tried to finish but ServiceManager not started
+2022-02-24T17:16:52,416+0100 [62330 16] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2022-02-24T17:37:19,775+0100 [71175 1] com.newrelic INFO: Writing to New Relic log file: /Users/nhormazabal/Development/Personal/spring-sample/logs/newrelic_agent.log
+2022-02-24T17:37:19,776+0100 [71175 1] com.newrelic INFO: JRE vendor Oracle Corporation version 12.0.2
+2022-02-24T17:37:19,776+0100 [71175 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 12.0.2+10
+2022-02-24T17:37:19,776+0100 [71175 1] com.newrelic INFO: OS Mac OS X version 10.16 arch x86_64
+2022-02-24T17:37:19,776+0100 [71175 1] com.newrelic INFO: Agent Host: C02Z55V1LVDQ IP: 192.168.1.181
+2022-02-24T17:37:19,776+0100 [71175 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT is initializing...
+2022-02-24T17:37:20,375+0100 [71175 20] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-02-24T17:37:21,357+0100 [71175 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at staging-collector.newrelic.com:443
+2022-02-24T17:37:21,604+0100 [71175 1] com.newrelic INFO: Setting audit_mode to false
+2022-02-24T17:37:21,718+0100 [71175 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/nhormazabal/Development/Personal/spring-sample/./newrelic.yml
+2022-02-24T17:37:21,723+0100 [71175 1] com.newrelic INFO: New Relic Agent v7.6.0-SNAPSHOT has started
+2022-02-24T17:37:21,723+0100 [71175 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@621be5d1
+2022-02-24T17:37:21,723+0100 [71175 1] com.newrelic INFO: Premain startup complete in 2,604ms
+2022-02-24T17:37:23,934+0100 [71175 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.56
+2022-02-24T17:37:26,731+0100 [71175 38] com.newrelic INFO: Host name is C02Z55V1LVDQ, display host C02Z55V1LVDQ for application Nico Test App
+2022-02-24T17:37:26,732+0100 [71175 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T17:37:28,968+0100 [71175 38] com.newrelic INFO: Collector redirection to collector-1.staging-collectors.newrelic.com:443
+2022-02-24T17:37:30,368+0100 [71175 38] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-02-24T17:37:30,369+0100 [71175 38] com.newrelic INFO: Agent run id: BcYfMnuLTkUMAK_46gHJkzNiF7SkAAIBIQArJQEAARYHifbhjAIEAcmPTAMADjcuNi4wLVNOQVBTSE9UAAxDMDJaNTVWMUxWRFEADU5pY28gVGVzdCBBcHA
+2022-02-24T17:37:30,369+0100 [71175 38] com.newrelic INFO: Agent 71175@C02Z55V1LVDQ/Nico Test App connected to staging-collector.newrelic.com:443
+2022-02-24T17:37:30,369+0100 [71175 38] com.newrelic INFO: Reporting to: https://staging.newrelic.com/accounts/11532522/applications/29986636
+2022-02-24T17:37:30,371+0100 [71175 38] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T17:37:30,371+0100 [71175 38] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T17:37:30,371+0100 [71175 38] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T17:37:30,373+0100 [71175 38] com.newrelic INFO: Using configured collector host: staging-collector.newrelic.com
+2022-02-24T17:37:30,373+0100 [71175 38] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-02-24T17:37:30,373+0100 [71175 38] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-02-24T17:37:31,570+0100 [71175 38] com.newrelic INFO: Real user monitoring is enabled for application Nico Test App. Auto instrumentation is enabled.
+2022-02-24T17:37:31,572+0100 [71175 38] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-02-24T17:37:41,545+0100 [71175 13] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-02-24T17:37:41,573+0100 [71175 42] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@5ef8253 tried to finish but ServiceManager not started
+2022-02-24T17:37:42,087+0100 [71175 13] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown

@@ -36,4 +36,11 @@ public class LoggingController {
 
         return "I just logged some error stuff";
     }
+
+    @GetMapping("/npe")
+    public String npe() {
+        logger.info("A null pointer exception Error!");
+
+        throw new NullPointerException();
+    }
 }
